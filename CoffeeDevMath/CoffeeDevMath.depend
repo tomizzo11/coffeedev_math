@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1456101125 source:/home/teague/Programming/Math Repository/coffeedev_math/CoffeeDevMath/src/Probability.cpp
+	"Probability.h"
+	<iostream>
+
+1456103752 /home/teague/Programming/Math Repository/coffeedev_math/CoffeeDevMath/include/Probability.h
+	<array>
+	<iostream>
+
+1457244016 source:/home/teague/Programming/Math Repository/coffeedev_math/CoffeeDevMath/main.cpp
+	<array>
+	<iostream>
+	"Probability.h"
+
