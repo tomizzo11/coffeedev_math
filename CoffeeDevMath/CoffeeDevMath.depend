@@ -3,12 +3,13 @@
 	"Probability.h"
 	<iostream>
 
-1456103752 /home/teague/Programming/Math Repository/coffeedev_math/CoffeeDevMath/include/Probability.h
+1457666814 /home/teague/Programming/Math Repository/coffeedev_math/CoffeeDevMath/include/Probability.h
 	<array>
 	<iostream>
+	<math.h>
 
-1457244016 source:/home/teague/Programming/Math Repository/coffeedev_math/CoffeeDevMath/main.cpp
+1457666814 source:/home/teague/Programming/Math Repository/coffeedev_math/CoffeeDevMath/main.cpp
 	<array>
 	<iostream>
-	"Probability.h"
+	"include/Probability.h"
 

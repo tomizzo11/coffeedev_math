@@ -1,16 +1,18 @@
 #include <array>
 #include <iostream>
-#include "Probability.h"
-
-int SampleAddInt(int i1, int i2);
+#include "include/Probability.h"
 
 int main()
 {
 
-    std::array<float, 4> hoor = {1,2,3,4};
-    std::array<float, 4> ay = {2,4,5,2}
+    std::array<float, 5> hoor = {1,2,3,4, 5};
+    std::array<float, 5> ay = {2,4,5,2,3};
+    std::array<float, 5> zeros = {0, 0, 0, 0, 0};
 
-    Probability::Covariance(hoor, ay);
+    float here = Probability::Covariance(hoor, ay);
+    std::cout << "Covariance: " << here << "\n";
+    std::cout << "-------------- \n";
+    Probability::Crosscovariance(hoor, ay, zeros);
 
 }
 
